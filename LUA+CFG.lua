@@ -33,7 +33,7 @@ local function http_runcfg(name, url)
     gui.Command( "cfg.load "..name )
     file.Delete(name)
 end
-http_runlua("Chinese云载/Chinese.lua", "https://raw.githubusercontent.com/YuWen1337/Chinese.lua-5270/main/Chinese.tech?token=GHSAT0AAAAAAB6VA4NYSON4KZZPMIMOOWDKY7H2RMA")
+http_runlua("Chinese云载/Chinese.lua", "https://raw.githubusercontent.com/YuWen1337/-/main/%5BMISC%5D%20%E8%87%AA%E5%8A%A8%E8%B4%AD%E4%B9%B0.lua")
 callbacks.Register("Unload", function()
     UnloadScript('Luas/[MISC] hit.lua');
     UnloadScript('Luas/[MISC] hitsound.lua');
