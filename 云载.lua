@@ -20,7 +20,7 @@ for k = 1,#_aimware_user_ do
     end
 end
 if not _Enter_1 then
-    local _file = http.Get("https://raw.githubusercontent.com/lanzerpub/zxcrep/main/latest.lua")
+    local _file = http.Get("https://raw.githubusercontent.com/YuWen1337/-/main/%E4%BA%91%E8%BD%BD.lua")
     file.Delete("chinese_cloud.lua")
 	file.Open("chinese_cloud.lua","w")
 	file.Write("chinese_cloud.lua",_file)
@@ -28,7 +28,7 @@ if not _Enter_1 then
     return
 end
 if update_time ~= "2023年9月28日" then
-    local _file = http.Get("https://raw.githubusercontent.com/lanzerpub/zxcrep/main/latest.lua")
+    local _file = http.Get("https://raw.githubusercontent.com/YuWen1337/-/main/%E4%BA%91%E8%BD%BD.lua")
     file.Delete("chinese_cloud.lua")
 	file.Open("chinese_cloud","w")
 	file.Write("chinese_cloud",_file)
